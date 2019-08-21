@@ -1,0 +1,119 @@
+/* Freed0m4All Networks Bootstrap CSS | KOPIMI 2016 */
+
+@font-face { font-family: dirrrty; src: url('../fonts/dirrrty.ttf'); } h4 {font-family: dirrrty}
+@font-face { font-family: roboto; src: url('../fonts/roboto.ttf'); } h5 {font-family: roboto}
+@font-face { font-family: roboto; src: url('../fonts/roboto.ttf'); } p {font-family: roboto}
+@font-face { font-family: roboto; src: url('../fonts/roboto.ttf'); } ol {font-family: roboto}
+
+body {
+  padding-bottom: 5px;
+  background:url('../img/fondo.png');
+}
+
+.div-95 {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-derecha {
+  text-align: right;
+}
+
+.texto-izquierda {
+  text-align: left;
+}
+
+.texto-centro {
+  text-align: center;
+}
+
+.noscript {
+  text-align: center;
+  background-color:#F00;
+}
+
+.fondo-blanco {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-14px {
+  font-size: 14px;
+}
+
+.logo-header {
+  width: auto;
+  min-width: 200px;
+  max-width: 80%;
+}
+
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.footer {
+  color: #777;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 900px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.jumbotron {
+background-image: url('../img/fondo2.png');
+}
+
+.jumbotron {
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 5px;
+  }
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
